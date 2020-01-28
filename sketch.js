@@ -32,7 +32,7 @@ group.add(sprite);
   
 
       
-  
+  time=time+1
   
   
   textSize(50);
@@ -42,8 +42,7 @@ group.add(sprite);
   { alert("you lose")
   window.location.href = "https://bigboybryson.github.io/theplanegame/index2.html";
 }
-   if (sprite.x<900){
-    time=time+1 }
+  
     background("blue");
   
   
