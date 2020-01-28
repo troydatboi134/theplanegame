@@ -5,7 +5,7 @@ function preload(){
 function setup(){  
     createCanvas(900,400);
 
-
+time = 0;
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
@@ -30,7 +30,7 @@ group.add(sprite);
  
 
   
-  
+
       
   
   
@@ -38,8 +38,12 @@ group.add(sprite);
   textSize(50);
   sprite.scale=.50;
   
-  
-  
+  if (sprite.x>900)
+  { alert("you lose")
+  window.location.href = "https://bigboybryson.github.io/theplanegame/index2.html";
+}
+   if (sprite.x<900){
+    time+1 }
     background("blue");
   
   
@@ -57,7 +61,7 @@ group.add(sprite);
      if (keyDown("space")) {
           sprite.y =200
              coincollect=6;
-          
+          time=0;
           sprite.x=50
           score=0
            sprite2.x=random(400, 900);
@@ -100,15 +104,16 @@ text(score,192,82 );
 fill("red");
 
 
-if (pause===1)
-{
-time=time-1;
-          sprite.x = sprite.x-coincollect;
-   stroke("black");
-   text("paused",150,200 );
-      
+      text("time",100,100 );
+   fill("red");
+    
+   text(time/15,50,100 );
+    fill("yellow");
+    
+ 
 
-}
+
+
 drawSprites();
   
   }
