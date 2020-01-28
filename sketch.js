@@ -43,7 +43,7 @@ group.add(sprite);
   window.location.href = "https://bigboybryson.github.io/theplanegame/index2.html";
 }
    if (sprite.x<900){
-    time+1 }
+    time=time+1 }
     background("blue");
   
   
