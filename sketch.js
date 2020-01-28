@@ -103,10 +103,10 @@ text(score,192,82 );
 fill("red");
 
 
-      text("time",100,100 );
+      text("time",270,100 );
    fill("red");
     
-   text(time/15,50,100 );
+   text(time/15,300,100 );
     fill("yellow");
     
  
