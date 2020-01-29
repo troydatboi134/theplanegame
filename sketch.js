@@ -39,7 +39,7 @@ group.add(sprite);
   sprite.scale=.50;
   
   if (sprite.x>900){
-  window.location.href = "https://bigboybryson.github.io/theplanegame/";
+  window.location.href = "https://troydatboi134.github.io/theplanegame/";
 }
   
     background("blue");
