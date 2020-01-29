@@ -39,7 +39,6 @@ group.add(sprite);
   sprite.scale=.50;
   
   if (sprite.x>900)
-  { alert("you lose")
   window.location.href = "https://bigboybryson.github.io/theplanegame/";
 }
   
