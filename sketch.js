@@ -38,7 +38,7 @@ group.add(sprite);
   textSize(50);
   sprite.scale=.50;
   
-  if (sprite.x>900)
+  if (sprite.x>900){
   window.location.href = "https://bigboybryson.github.io/theplanegame/";
 }
   
