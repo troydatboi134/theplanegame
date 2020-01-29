@@ -37,7 +37,8 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-  
+    if (coincollect>50){coincollect=50}
+
   if (sprite.x>900){
   window.location.href = "https://troydatboi134.github.io/theplanegame/";
 }
