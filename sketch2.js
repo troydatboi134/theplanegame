@@ -5,7 +5,7 @@ switch(web) {
 break;
 
   case "bot":
-     window.location.href = "https://troydatboi134.github.io/theplanegame/index2.html"
+     window.location.href = "https://bigboybryson.github.io/theplanegame/index3.html"
     break;
 
 }
