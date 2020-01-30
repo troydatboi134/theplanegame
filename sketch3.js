@@ -41,7 +41,7 @@ group.add(sprite);
 
    if (sprite.x>900)
   { alert("you lose")
-  window.location.href = "https://troydatboi134.github.io/theplanegame/";
+  window.location.href = "https://bigboybryson.github.io/theplanegame/";
 }
   
     background("blue");
