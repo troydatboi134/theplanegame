@@ -37,7 +37,7 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-    if (coincollect>50){coincollect=50}
+    
 
   if (sprite.x>900){
   window.location.href = "https://bigboybryson.github.io/theplanegame/";
@@ -63,8 +63,8 @@ group.add(sprite);
           time=0;
           sprite.x=50
           score=0
-           sprite2.x=random(400, 900);
-                sprite2.y=random(50,370);
+           sprite2.x=random(600, 800);
+                sprite2.y=random(100,290);
               }
     
     
