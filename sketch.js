@@ -39,7 +39,7 @@ group.add(sprite);
   time=time+1
   
   
-  textSize(50);
+  textSize(25);
   sprite.scale=.50;
    if (sprite.x>900){
              sprite.y =200;
@@ -77,7 +77,7 @@ group.add(sprite);
  
 
 
-      text('Score',450,300 );
+      text('Score',400,300 );
    fill("red");
     
    text(score,450,342 );
