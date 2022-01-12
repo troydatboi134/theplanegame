@@ -42,6 +42,10 @@ background("blue");
        if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
+         if (score<25)
+         {coincollect=coincollect+.25}
+         if (score<45)
+         {coincollect=coincollect+.125}
    coincollect=coincollect+.5;
              score = score+1;
  sprite2.x=random(400,900);
