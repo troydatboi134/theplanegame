@@ -21,38 +21,25 @@ group.add(sprite);
   coincollect = 6;
   time2 = 0;
 }
-
-
-
-
-  
- function draw() {
- 
-
-  
-
-      
-  time=time+1
-  
-  
+function draw() {
+time=time+1
   textSize(50);
   sprite.scale=.50;
-    
-
-  if (sprite.x>900){
-  window.location.href = "/theplanegame/";
-}
-  
-    background("blue");
-  
-  
+   if (sprite.x>900){
+             sprite.y =200
+              coincollect=6;
+           time=0;
+           sprite.x=50
+           score=0
+            sprite2.x=random(600, 800);
+                 sprite2.y=random(100,290);
+               }
+background("blue");
   if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
   }
-       
-    
-   if (group.isTouching(sprite2)) {
+       if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
    coincollect=coincollect+.5;
@@ -60,29 +47,18 @@ group.add(sprite);
  sprite2.x=random(400,900);
       sprite2.y=random(20,370);
       }
-
-
-    fill("yellow");
-                
+fill("yellow");
  text('score',192,40 );
 fill("red");
-                  
-text(score,192,82 );
+ text(score,192,82 );
     fill("yellow");
 fill("red");
-
-
-      text("time",50,300 );
+ text("time",50,300 );
    fill("red");
     
    text(time/15,100,342 );
     fill("yellow");
-    
- 
-
-
-
-drawSprites();
+   drawSprites();
   
   }
  }
