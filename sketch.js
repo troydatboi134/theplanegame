@@ -43,10 +43,11 @@ group.add(sprite);
   window.location.href = "/theplanegame/";
 }
   
-    background("blue");
+    
   
   
   if (sprite.x===sprite.x) {
+    background("blue");
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
            }
@@ -88,7 +89,7 @@ fill("red");
 drawSprites();
   
   }
- }
+}
 
 
 
