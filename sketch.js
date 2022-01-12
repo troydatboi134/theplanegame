@@ -40,7 +40,7 @@ group.add(sprite);
     
 
   if (sprite.x>900){
-  window.location.href = "troydatboi134.github.io/theplanegame/";
+  window.location.href = "/theplanegame/";
 }
   
     background("blue");
