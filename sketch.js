@@ -5,8 +5,7 @@ function preload(){
 }
 function setup(){  
     createCanvas(900,400);
-
-time = 0;
+  time = 0;
   sprite2=createSprite(450,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
@@ -22,25 +21,14 @@ group.add(sprite);
   coincollect = 6;
   time2 = 0;
 }
-
-
-
-
-  
- function draw() {
- 
+function draw() {
  if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect/2;
   }
-  
-
-      
-  time=time+1
-  
-  
+ time=time+1
   textSize(40);
-  sprite.scale=.25;
+  sprite.scale=.50;
    if (sprite.x>900){
              sprite.y =200;
               coincollect=6;
@@ -50,18 +38,8 @@ group.add(sprite);
             sprite2.x=random(600, 800);
                  sprite2.y=random(100,290);
                }
-  
-    background("blue");
-  
-    
-    
-          
-
-
-   
-    
-   
- if (group.isTouching(sprite2)) {
+   background("blue");
+  if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
          if (score>20){if (score<30) {coincollect=coincollect+.25}}
@@ -72,31 +50,9 @@ group.add(sprite);
  sprite2.x=random(400,900);
       sprite2.y=random(20,370); }
     fill("yellow");
-                
- 
-
-
-      text('Score',400,300 );
+   text('Score',400,300 );
    fill("red");
-    
    text(score,450,342 );
     fill("red");
-    
- 
-
-
-
-drawSprites();
-  
+    drawSprites(); 
   }
- 
-
-
-
-
-
-
-
-
-
-  
