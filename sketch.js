@@ -31,7 +31,7 @@ group.add(sprite);
  
  if (sprite.x===sprite.x) {
     sprite.y = mouseY;
-          sprite.x = sprite.x+coincollect;
+          sprite.x = sprite.x+coincollect/2;
   }
   
 
@@ -40,7 +40,7 @@ group.add(sprite);
   
   
   textSize(40);
-  sprite.scale=.50;
+  sprite.scale=.25;
    if (sprite.x>900){
              sprite.y =200;
               coincollect=6;
