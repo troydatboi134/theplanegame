@@ -1,6 +1,6 @@
 
 function preload(){
-  mySound = loadSound('https://troydatboi134.github.io/theplanegame/ppe.mp3');
+  mySound = loadSound('ppe.mp3');
 
 }
 function setup(){  
