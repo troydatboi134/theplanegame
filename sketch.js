@@ -11,6 +11,7 @@ img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
   sprite = createSprite(10, 200,0,0);
+  Controler = createSprite(10, 200,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
@@ -24,6 +25,8 @@ group.add(sprite);
 function draw() {
  if (sprite.x===sprite.x) {
     sprite.y = mouseY;
+   Controler.y = mouseY;
+   Controler.x = mouseX;
           sprite.x = sprite.x+coincollect;
   }
  time=time+1
