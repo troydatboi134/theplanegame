@@ -39,7 +39,7 @@ group.add(sprite);
   time=time+1
   
   
-  textSize(25);
+  textSize(40);
   sprite.scale=.50;
    if (sprite.x>900){
              sprite.y =200;
