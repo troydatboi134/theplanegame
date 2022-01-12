@@ -7,13 +7,13 @@ time = 0;
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
-sprite2.scale=0.5
+sprite2.scale=0.5;
   sprite = createSprite(10, 200,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
 group.add(sprite);
-  score = 0 ;
+  score = 0;
   pause = 0;
   pause2 = .5; 
   coincollect = 6;
