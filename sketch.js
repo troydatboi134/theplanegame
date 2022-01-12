@@ -74,18 +74,13 @@ group.add(sprite);
       sprite2.y=random(20,370); }
     fill("yellow");
                 
- text('score',192,40 );
-fill("red");
-                  
-text(score,192,82 );
-    fill("yellow");
-fill("red");
+ 
 
 
-      text("time",50,300 );
+      text('Score',50,300 );
    fill("red");
     
-   text(time/15,100,342 );
+   text(score,450,342 );
     fill("yellow");
     
  
