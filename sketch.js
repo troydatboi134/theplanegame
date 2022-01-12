@@ -1,10 +1,8 @@
 function preload(){
   mySound = loadSound('ppe.mp3');
-
 }
 function setup(){  
     createCanvas(900,400);
-
 time = 0;
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
