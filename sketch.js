@@ -77,11 +77,11 @@ group.add(sprite);
  
 
 
-      text('Score',50,300 );
+      text('Score',450,300 );
    fill("red");
     
    text(score,450,342 );
-    fill("yellow");
+    fill("red");
     
  
 
