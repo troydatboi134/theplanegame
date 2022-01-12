@@ -29,7 +29,10 @@ group.add(sprite);
   
  function draw() {
  
-
+ if (sprite.x===sprite.x) {
+    sprite.y = mouseY;
+          sprite.x = sprite.x+coincollect;
+  }
   
 
       
