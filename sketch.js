@@ -64,10 +64,10 @@ group.add(sprite);
  if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
-         if (score>40){if (score<60) {coincollect=coincollect+.625}}
-         if (score>60){if (score<80){coincollect=coincollect+.3125}}
-         if (score>80){coincollect=coincollect+.15625}
-   coincollect=coincollect+.25;
+         if (score>20){if (score<30) {coincollect=coincollect+.25}}
+         if (score>40){if (score<50){coincollect=coincollect+.125}}
+         if (score>60){coincollect=coincollect+.625}
+   coincollect=coincollect+.5;
              score = score+1;
  sprite2.x=random(400,900);
       sprite2.y=random(20,370); }
