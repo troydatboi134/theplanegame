@@ -49,35 +49,7 @@ group.add(sprite);
   if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
-    if (keyDown("up")) {
-          sprite.y = sprite.y-5;
-
-    }
-    if (keyDown("down")) {
-          sprite.y = sprite.y+5;
-
-    }
-     if (keyDown("space")) {
-          sprite.y =200
-             coincollect=6;
-          time=0;
-          sprite.x=50
-          score=0
-           sprite2.x=random(600, 800);
-                sprite2.y=random(100,290);
-              }
-    
-    
-    
-     if (keyDown("b"))
-
-     {
-       pause=pause+1;
-          }
-           if (pause===2)
-          {
-            pause=pause-2;
-          }
+           }
           
 
 
@@ -88,8 +60,8 @@ group.add(sprite);
      sprite.x=0;
    coincollect=coincollect+.5;
              score = score+1;
- sprite2.x=random(400,900);
-      sprite2.y=random(20,370);
+ sprite2.x=random(450,850);
+      sprite2.y=random(20,350);
       }
 
 
