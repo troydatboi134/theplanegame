@@ -24,7 +24,7 @@ group.add(sprite);
 function draw() {
  if (sprite.x===sprite.x) {
     sprite.y = mouseY;
-          sprite.x = sprite.x+coincollect/2;
+          sprite.x = sprite.x+coincollect;
   }
  time=time+1
   textSize(40);
