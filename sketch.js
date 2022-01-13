@@ -45,7 +45,7 @@ function draw() {
      sprite.x=0;
          if (score=15){coincollect=coincollect+20}
          if (score>15) {if (score<20) {coincollect=coincollect}}
-         if score=20 {coincollect=coincollect+20}
+         if (score=20) {coincollect=coincollect+20}
    coincollect=coincollect+.0625;
              score = score+1;
  sprite2.x=random(400,900);
