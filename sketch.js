@@ -10,7 +10,7 @@ function setup(){
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  sprite = createSprite(200,100,0,0);
+  sprite = createSprite(200,100);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
@@ -41,7 +41,7 @@ function draw() {
    background("blue");
   if (group.isTouching(sprite2)) {
        mySound.play();
-     sprite.x=0;
+     sprite.x=50;
          if (coincollect>40){coincollect=20}
           coincollect=coincollect+.5;
              score = score+1;
