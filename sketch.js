@@ -43,7 +43,7 @@ function draw() {
   if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
-         if (coincollect>50){coincollect=50}
+         if (coincollect>50){coincollect=35}
          
          
    coincollect=coincollect+1;
