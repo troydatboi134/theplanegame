@@ -4,7 +4,7 @@ function preload(){
 
 }
 function setup(){  
-    createCanvas(900,400);
+    createCanvas(900,900);
   time = 0;
   sprite2=createSprite(850,200,0,0);
 img=loadImage("e.png")
@@ -31,12 +31,12 @@ function draw() {
   textSize(40);
   sprite.scale=.50;
    if (sprite.x>900){
-             sprite.y =200;
+             sprite.y=200;
               coincollect=10;
            time=0;
            sprite.x=50
            score=0
-           sprite2.y=random(100,290);
+           sprite2.y=random(100,870);
                }
    background("blue");
   if (group.isTouching(sprite2)) {
@@ -46,7 +46,7 @@ function draw() {
           coincollect=coincollect+.5;
              score = score+1;
       sprite2.x=850;
-      sprite2.y=random(20,370); }
+      sprite2.y=random(20,870); }
     fill("yellow");
    text('Score',400,300 );
    fill("red");
