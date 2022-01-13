@@ -9,7 +9,7 @@ function setup(){
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  sprite = createSprite(290,500,0,0);
+  sprite = createSprite(600,500,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
