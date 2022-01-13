@@ -5,11 +5,11 @@ function preload(){
 function setup(){  
     createCanvas(900,400);
   time = 0;
-  sprite2=createSprite(450,200,0,0);
+  sprite2=createSprite(450,100,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  sprite = createSprite(10,200);
+  sprite = createSprite(10,100);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
