@@ -18,7 +18,7 @@ group.add(sprite);
   score = 0 ;
   pause = 0;
   pause2 = .5; 
-  coincollect = 6;
+  coincollect = 10;
   time2 = 0;
 }
 function draw() {
