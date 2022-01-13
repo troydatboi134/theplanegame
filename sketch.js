@@ -10,12 +10,11 @@ function setup(){
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  sprite = createSprite(200,200,0,0);
+  sprite = createSprite(200,100,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
 group.add(sprite);
-  sprite.y=200;
   score = 0 ;
   pause = 0;
   pause2 = .5; 
