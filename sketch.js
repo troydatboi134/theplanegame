@@ -19,7 +19,7 @@ group.add(sprite);
   pause2 = .5; 
   coincollect = 10;
   time2 = 0;
-  sprite2.y=random(100,290);
+  sprite.y=random(100,290);
 }
 function draw() {
  if (sprite.x===sprite.x) {
