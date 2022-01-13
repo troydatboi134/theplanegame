@@ -6,11 +6,11 @@ function preload(){
 function setup(){  
     createCanvas(900,400);
   time = 0;
-  sprite2=createSprite(450,200,0,0);
+  sprite2=createSprite(850,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  sprite = createSprite(10, 200,0,0);
+  sprite = createSprite(200,200,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
@@ -36,19 +36,16 @@ function draw() {
            time=0;
            sprite.x=50
            score=0
-            sprite2.x=random(600, 800);
-                 sprite2.y=random(100,290);
+           sprite2.y=random(100,290);
                }
    background("blue");
   if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
          if (coincollect>35){coincollect=20}
-         
-         
-   coincollect=coincollect+.5;
+          coincollect=coincollect+.5;
              score = score+1;
- sprite2.x=random(850,900);
+      sprite2.x=850;
       sprite2.y=random(20,370); }
     fill("yellow");
    text('Score',400,300 );
