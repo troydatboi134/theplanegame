@@ -51,7 +51,7 @@ function draw() {
     fill("yellow");
    text('Score',400,300 );
    fill("red");
-   text(score,450,342 );
+   text(sprite.y,450,342 );
     fill("red");
     drawSprites(); 
   }
