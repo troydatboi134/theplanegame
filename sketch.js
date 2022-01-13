@@ -32,7 +32,7 @@ function draw() {
   sprite.scale=.50;
    if (sprite.x>900){
              sprite.y =200;
-              coincollect=6;
+              coincollect=10;
            time=0;
            sprite.x=50
            score=0
@@ -48,7 +48,7 @@ function draw() {
          
    coincollect=coincollect+.5;
              score = score+1;
- sprite2.x=random(400,900);
+ sprite2.x=random(850,900);
       sprite2.y=random(20,370); }
     fill("yellow");
    text('Score',400,300 );
