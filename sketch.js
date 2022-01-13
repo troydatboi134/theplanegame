@@ -9,7 +9,7 @@ function setup(){
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
-  sprite = createSprite(10,300,0,0);
+  sprite = createSprite(10,10,0,0);
 img=loadImage("s.png")
 sprite.addImage(img);
   group = createGroup();
@@ -30,7 +30,6 @@ function draw() {
   textSize(40);
   sprite.scale=.50;
    if (sprite.x>900){
-             sprite.y =200;
               coincollect=10;
            time=0;
            sprite.x=50
