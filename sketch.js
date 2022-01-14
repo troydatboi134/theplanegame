@@ -21,7 +21,7 @@ group.add(sprite);
   time2 = 0;
 }
 function draw() {
- if (1=1) {
+ if (sprite.y=sprite.y){
     sprite.y = mouseY;
     sprite.x = sprite.x+coincollect;
   }
