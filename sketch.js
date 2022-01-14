@@ -41,7 +41,7 @@ function draw() {
   if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
-         
+      sprite.y=90;   
    coincollect=coincollect+.5;
              score = score+1;
  
